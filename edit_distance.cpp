@@ -1,9 +1,13 @@
 #include <iostream>
+
 using namespace std;
+
 string a, b;
 int DP[1001][1001], n, m;
+
 int main() {
   cin >> a >> b;
+  
   n = a.size();
   m = b.size();
 
@@ -19,5 +23,6 @@ int main() {
       }
     }
   }
+  
   cout << DP[n][m];
 }

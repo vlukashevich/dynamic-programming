@@ -22,14 +22,14 @@ void LCS (int i, int j) {
 int main() {
   // read the first sequence
   cin >> n;
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i <= n; i++) {
     cin >> a[i];
     A[i][0] = 0;
   }
   
   // read the second sequence
   cin >> m;
-  for (int j = 0; j < m; j++)  {
+  for (int j = 0; j <= m; j++)  {
     cin >> b[j];
     A[0][j] = 0;
   }
